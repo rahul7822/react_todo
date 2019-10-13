@@ -13,6 +13,8 @@ class Todos extends Component {
 
 //PropTypes
 Todos.propTypes={
-    todos:PropTypes.array.isRequired //todos is property for Todos Tag. see App.js
+    todos:PropTypes.array.isRequired, //todos is property for Todos Tag. see App.js
+    markComplete:PropTypes.func.isRequired,
+    delTodo:PropTypes.func.isRequired,
 }
 export default Todos;
